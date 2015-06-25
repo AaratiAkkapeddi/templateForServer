@@ -4,7 +4,7 @@ var mongoose = require('mongoose'),
 
   /*<><><><>DEFINE SCHEMA<><><><><>*/
   var theSchema = mongoose.Schema({
-   
+
  });
 
  var mySchema = mongoose.model('myObj', theSchema);
@@ -12,4 +12,4 @@ var mongoose = require('mongoose'),
 
 /*<><><><><>EXPORT AT THE END<><><><><>*/
 
-module.exports = theSchema;
+module.exports = mySchema;
